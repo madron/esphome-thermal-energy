@@ -27,8 +27,6 @@ sensor:
   - **counter** (**Required**): Sensor id of an ever increasing flow meter counter
   - **temp_in** (**Required**): Fluid input temperature (sensor id)
   - **temp_out** (**Required**): Fluid output temperature (sensor id)
-
-  - **temp_out** (**Required**): A binary sensor id
   - **multiply** (Optional): The energy contained in one unit of fluid for a delta temperature of 1. When using standard units (volume in litres and temperature in kelvin or celsius) this value is a [calorie](https://en.wikipedia.org/wiki/Calorie) which can be converted in 1.16222 Wh. Defaults to 1.16222.
   - **positive_energy** (Optional): A sensor providing only positive energy.
   - **negative_energy** (Optional): A sensor providing only negative energy.
